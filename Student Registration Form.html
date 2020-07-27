@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Information Form</title>
+</head>
+<body>
+	<form style="background-color:#66d9ff;width: 500px;height: 600px">
+		<h2 style="color:red"><b><ins>Student Registration Form in HTML</ins></b></h2>
+		<label for="firstname">First Name :</label>
+		<input type="text" name="firstname" id="_firstname">
+		<label>(Max 50 Characters Allowed)</label>
+		<br><br>
+
+		<label for="lastname">Last Name :</label>
+		<input type="text" name="lastname" id="_lastname">
+		<label>(Max 50 Characters Allowed)</label>
+		<br><br>
+
+		<label>Email Id :</label>
+		<input type="username" name="emailid" id="_emailid" placeholder="abc34@gmail.com">
+		<br><br>
+
+		<label>Mobile Number :</label>
+		<input type="text" name="mobilenumber" id="_mobilenumber">
+		<label>(10 Digit Allowed)</label>
+		<br><br>
+
+		<label>Gender</label>
+		<input type="radio" name="gender" id="_male">
+		<label for="_male">Male</label>
+		<input type="radio" name="gender" id="_female">
+		<label for="_female">Female</label>
+		<input type="radio" name="gender" id="_other">
+		<label for="_other">Other</label>
+		<br><br>
+
+		<label>Date Of Birth(DOB)</label>
+		<input type="date" name="date" id="_day">
+		<br><br>
+
+		<label style="position:middle ">Address :</label>
+		<textarea name="address" style="width: 200px;height: 100px" id="_address"></textarea>
+		<br><br>
+
+		<label> City :</label>
+		<input type="text" name="city" id="_city">
+		<label>(Max 50 Characters Allowed)</label>
+		<br><br>
+
+		<label>Pin code :</label>
+		<input type="text" name="pincode" id="_pincode">
+		<label>(Max 6 Numbers Allowed)</label>
+		<br><br>
+
+		<label id="_state">State :</label>
+		<select id="_state" name="state">
+		<option value="select">Select</option>
+		<option value="Maharashtra">Maharashtra</option>
+		<option value="AndhraPradesh">Andhra Pradesh</option>
+		<option value="ArunachalPradesh">Arunachal Pradesh</option>
+		<option value="Assam">Assam</option>
+		<option value="Chhattisgarh">Chhattisgarh</option>
+		<option value="Goa">Goa</option>
+		<option value="Gujarat">Gujarat</option>
+		<option value="Haryana">Haryana</option>
+		<option value="HimachalPradesh">Himachal Pradesh</option></select>
+		<br><br>
+
+		<label id="_country">Country :</label>
+		<select id="_country" name="country">
+		<option value="select">Select</option>
+		<option value="india">India</option>
+		<option value="usa">USA</option>
+		<option value="japan">Japan</option></select>
+		<br><br>
+
+		<input type="submit" name="Submit" id="_submit" style="background-color: green">
+		<input type="reset" name="Reset" id="_reset" style="background-color: red">
+	</form>
+</body>
+</html>
